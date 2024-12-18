@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* CSS */
+input{
+    padding:5px 10px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius:5px;
+    display:block;
+    width:50%;
+}
+button{
+    font-size:20px;
+    border:none;
+    color:white;
+    margin:10px 20px;
+    padding:10px 10px;
+    background:#006699;
+    font-weight:bold;
+    transition:all ease 0.5s;
+}
+button:hover{
+    color:white;
+    border-radius:20px;
+}
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #004466;
+    color: #fffff;
+    padding: 1rem 2rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+section h1 {
+    color: #004466;
+    margin-bottom: 1rem;
+}
+
+section h2 {
+    color: #006699;
+    margin-top: 1.5rem;
+}
+#dld{
+    text-decoration-color:#194d97
+}
+#dld:hover{
+    color:black;
+}
+section p,
+section ul,
+section ol {
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+
+section ol {
+    list-style-type: decimal;
+    margin-left: 1.5rem;
+}
+
+section .container{
+	
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    background:;
+}
+
+section .sim-F, section .sim-Q{
+    overflow:hidden;
+    margin: 10px;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    align-items:center;
+}
+#sim-f,#sim-q{
+				border:5px solid #0a4075;
+				border-radius:15px 15px 0 0;
+				height:70vh;
+				width:auto;
+				margin:auto;
+				display:block;
+    object-fit:scale-down;
+}
+.formula {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #006699;
+    background-color: #f0f8ff;
+    padding: 0.5rem;
+    border-left: 5px solid #004466;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #004466;
+    color: #fff;
+    margin-top: 2rem;
+}
