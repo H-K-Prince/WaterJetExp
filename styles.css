@@ -120,7 +120,19 @@ section .container{
     align-items: center;
     background:;
 }
-
+@media only screen and (max-width: 768px) {
+    section .container{
+    flex-direction:column;
+    }
+    section .sim-F, section .sim-Q{
+        
+            }
+    #sim-f,#sim-q{
+        width:60%;
+        height:500px;
+    }
+    
+}
 section .sim-F, section .sim-Q{
     overflow:hidden;
     margin: 10px;
